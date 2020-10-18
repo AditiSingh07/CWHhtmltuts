@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        /* Comments in CSS */
+p{
+    border: 2px solid red
+}
+        /* Id Selector */
+        #redElement {
+            color: red;
+        }
+        /* Id Selector */
+        #blueElement {
+            color: blue;
+        }
+        /* Class Selector */
+        .voiletElement {
+            color: violet;
+        }
+        /* Class Selector */
+        .bgLime {
+            background-color: lime;
+        }
+        
+        /* Grouping Selector */
+        footer,span{
+            background-color: antiquewhite;
+        }
+    </style>
+</head>
+<!-- # for ID ,,,, AND . FOR CLASS -->
+<!-- class zyada bhi ho skta h lekin id ek hi hoga -->
+
+<body>
+    <h3>CSS Seletors</h3>
+    <p id="blueElement">This is a simple Paragraph to demonstrate CSS selectors</p>
+    <p id="Second Para" class="voiletElement">This is another Paragraph to demonstrate CSS selectors</p>
+    <div>
+        <p id="Third Para" class="bgLime voiletElement">This is an another Paragraph to demonstrate CSS selectors</p>
+    </div>
+    <span>This is span</span>
+<footer>This is footer</footer>
+</body>
+
+</html>
